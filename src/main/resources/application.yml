@@ -8,9 +8,9 @@ bot.token:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://maglev.proxy.rlwy.net:53123/railway
     username: postgres
-    password: 1
+    password: jkxdHdHRUSsQDlihKTLQOGHQwCLYUdZv
 #    url: jdbc:postgresql://centerbeam.proxy.rlwy.net:36572/railway
 #    username: postgres
 #    password: uHmsAktkqMTKdEniBZkPlfXRslgUxFWx
