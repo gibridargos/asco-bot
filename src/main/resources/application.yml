@@ -1,0 +1,32 @@
+bot.name:
+  FORUSERNAME_BOT
+  #UzTaxInfo_bot
+bot.token:
+  7467380526:AAGscayEpyMQOmIIDoEZSlVJo-33MvEgm3I
+  #8128704141:AAFum-pQ5fURSyarlqkcHCXpnsJbXmEzcyY
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1
+#    url: jdbc:postgresql://centerbeam.proxy.rlwy.net:36572/railway
+#    username: postgres
+#    password: uHmsAktkqMTKdEniBZkPlfXRslgUxFWx
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+bot.notification-photo:
+  https://firebasestorage.googleapis.com/v0/b/tax-info-aspect.appspot.com/o/aspect-notification-photo.jpg?alt=media&token=cf282743-c603-4c4f-b29e-7bd3d7d64a61
+#https://instagram.fhan5-10.fna.fbcdn.net/v/t51.29350-15/454497142_1004951808087373_1056711889108026246_n.webp?stp=dst-jpg_e35&_nc_ht=instagram.fhan5-10.fna.fbcdn.net&_nc_cat=101&_nc_ohc=A_-jbHyrFIAQ7kNvgECNRw6&edm=APs17CUBAAAA&ccb=7-5&oh=00_AYCoiHIMFz0TNUuTdhHYIAvAKi6xOWLXwMBP2Z0pDmpYKw&oe=66BC0498&_nc_sid=10d13b
+server:
+  port: 8080
