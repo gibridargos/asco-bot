@@ -1,16 +1,16 @@
 bot.name:
-  FORUSERNAME_BOT
-  #UzTaxInfo_bot
+  #FORUSERNAME_BOT
+  UzTaxInfo_bot
 bot.token:
-  7467380526:AAGscayEpyMQOmIIDoEZSlVJo-33MvEgm3I
-  #8128704141:AAFum-pQ5fURSyarlqkcHCXpnsJbXmEzcyY
+  #7467380526:AAGscayEpyMQOmIIDoEZSlVJo-33MvEgm3I
+  8128704141:AAFum-pQ5fURSyarlqkcHCXpnsJbXmEzcyY
 
 
 spring:
   datasource:
-    url: jdbc:postgresql://maglev.proxy.rlwy.net:53123/railway
+    url: jdbc:postgresql://junction.proxy.rlwy.net:11316/railway
     username: postgres
-    password: jkxdHdHRUSsQDlihKTLQOGHQwCLYUdZv
+    password: tMaaqhhFCEtLHevBGlxoVenTMxKkfuZg
 #    url: jdbc:postgresql://centerbeam.proxy.rlwy.net:36572/railway
 #    username: postgres
 #    password: uHmsAktkqMTKdEniBZkPlfXRslgUxFWx
